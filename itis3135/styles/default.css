@@ -1,0 +1,14 @@
+body
+{
+  font-family: Verdana, sans-serif;
+  color: #FBC4AB;
+  background-color: #DD403A;
+  /* https://coolors.co/fbc4ab-ffdab9-27474e-b8dbd9-dd403a */
+}
+
+header
+{
+  font-family: Courier, serif;
+  text-align: center;
+  color: #27474E;
+}
