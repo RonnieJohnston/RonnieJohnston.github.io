@@ -33,5 +33,6 @@ figcaption
 ul
 {
     display: table;
+    text-align: start;
     margin: 0 auto;
 }
