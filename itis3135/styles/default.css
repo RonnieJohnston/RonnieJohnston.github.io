@@ -3,6 +3,8 @@ body
 {
     font-family: Verdana, sans-serif;
     text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
     color: #FBC4AB;
     background-color: #DD403A;
 }
