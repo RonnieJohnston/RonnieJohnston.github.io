@@ -23,6 +23,11 @@ footer
     color: #FBC4AB;
 }
 
+h2
+{
+    text-align: center;
+}
+
 figcaption
 {
     font-style: italic;
