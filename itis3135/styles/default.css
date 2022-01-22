@@ -24,13 +24,6 @@ footer
     color: #FBC4AB;
 }
 
-figure
-{
-    text-align: center;
-    height: 400;
-    width: 350;
-}
-
 figcaption
 {
     font-style: italic;
@@ -41,4 +34,19 @@ ul
 {
     display: table;
     margin: 0 auto;
+}
+
+.div-1
+{
+    height: 400px;
+    width: 300px;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.div-1 img
+{
+    height: 100%;
+    width: 100%;
 }
