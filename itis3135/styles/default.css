@@ -37,10 +37,8 @@ figcaption
     text-align: center;
 }
 
-.div-1
+ul
 {
-    display: block;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-align: start;
+    display: table;
+    margin: 0 auto;
 }
