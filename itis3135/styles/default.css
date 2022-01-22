@@ -1,14 +1,22 @@
+/* https://coolors.co/fbc4ab-ffdab9-27474e-b8dbd9-dd403a */
 body
 {
-  font-family: Verdana, sans-serif;
-  color: #FBC4AB;
-  background-color: #DD403A;
-  /* https://coolors.co/fbc4ab-ffdab9-27474e-b8dbd9-dd403a */
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    color: #FBC4AB;
+    background-color: #DD403A;
 }
 
 header
 {
-  font-family: Courier, serif;
-  text-align: center;
-  color: #27474E;
+    font-family: Courier, serif;
+    text-align: center;
+    color: #27474E;
+}
+
+footer
+{
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    color: #FBC4AB;
 }
