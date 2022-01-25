@@ -41,6 +41,13 @@ ul
     margin: 0 auto;
 }
 
+ol
+{
+    display: table;
+    text-align: left;
+    margin: 0 auto;
+}
+
 table, td, th
 {
     border: 1px solid black;
@@ -62,11 +69,4 @@ table tr:nth-child(even)
 {
     background-color: #280003;
     color: #FFC4AB;
-}
-
-.centered-list
-{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 }
