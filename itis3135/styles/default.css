@@ -54,13 +54,13 @@ table, td, th
 
 table tr:nth-child(even)
 {
-    background-color: #5387e7;
+    background-color: #27474E;
     color: #FFC4AB;
 }
 
 .table-top-row
 {
-    background-color: #27474E;
+    background-color: #280003;
     color: #FFC4AB;
 }
 
