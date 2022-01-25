@@ -23,6 +23,11 @@ footer
     color: #FBC4AB;
 }
 
+.left-align
+{
+    text-align: left;
+}
+
 .div-1
 {
     text-align: center;
