@@ -44,5 +44,10 @@ ul
 table, td, th
 {
     border: 1px solid black;
-    text-align: center;
+}
+
+.centered-table
+{
+    margin-left: auto;
+    margin-right: auto;
 }
