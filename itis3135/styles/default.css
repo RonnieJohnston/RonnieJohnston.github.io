@@ -52,6 +52,18 @@ table, td, th
     margin-right: auto;
 }
 
+table tr:nth-child(even)
+{
+    background-color: #5387e7;
+    color: #FFC4AB;
+}
+
+.table-top-row
+{
+    background-color: #27474E;
+    color: #FFC4AB;
+}
+
 .centered-list
 {
     margin-left: auto;
