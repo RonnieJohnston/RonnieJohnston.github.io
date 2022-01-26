@@ -48,13 +48,15 @@ footer
 
 input[type="text"]
 {
-    border: 2px #998FC7;
+    border-color: #998FC7;
+    border-width: 2px;
     border-radius: 4px;
 }
 
 input[type="email"]
 {
-    border: 2px #748E54;
+    border-color: #748E54;
+    border-width: 2px;
     border-radius: 4px;
 }
 
