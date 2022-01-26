@@ -76,6 +76,11 @@ input[type="email"]
     height: 50px;
 }
 
+.custom-select
+{
+    background-color: red;
+}
+
 figcaption
 {
     font-style: italic;
