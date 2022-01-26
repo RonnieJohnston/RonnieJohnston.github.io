@@ -33,6 +33,12 @@ footer
     text-align: center;
 }
 
+.form-1
+{
+    text-align: center;
+    background-color: #27474E;
+}
+
 figcaption
 {
     font-style: italic;
