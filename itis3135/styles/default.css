@@ -46,6 +46,12 @@ footer
     margin-right: 240px;
 }
 
+.colored-button1
+{
+    background-color: #FBC4AB;
+    color: #27474E;
+}
+
 figcaption
 {
     font-style: italic;
