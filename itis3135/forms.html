@@ -22,27 +22,28 @@
             <a href="/index.html">Personal UNCC Homepage</a>
         </nav>
     </header>
+    <br>
     <main>
         <div class="div-1">
             <form action="#">
-                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="text" id="name" name="name" placeholder="Name" required>
                 <br>
-                <input type="text" id="phone-num" name="phone-num" placeholder="Phone Number">
+                <input type="text" id="phone-num" name="phone-num" placeholder="Phone Number" required>
                 <br>
-                <input type="text" id="email" name="email" placeholder="Email">
+                <input type="text" id="email" name="email" placeholder="Email" required>
                 <br>
-                <label for="shop-preference">Favorite places to shop (Pick one or more):</label>
+                <label for="shop-preference" required>Favorite places to shop (Pick one or more):</label>
                 <label for="walmart"><input type="checkbox" id="walmart" name="shop-preference" value="walmart">Walmart</label>
                 <label for="target"><input type="checkbox" id="target" name="shop-preference" value="target">Target</label>
                 <label for="publix"><input type="checkbox" id="publix" name="shop-preference" value="publix">Publix</label>
                 <label for="other"><input type="checkbox" id="other" name="shop-preference" value="other">Walmart</label>
                 <br>
-                <label for="favorite-os">Favorite Operating System:</label>
+                <label for="favorite-os" required>Favorite Operating System:</label>
                 <label for="windows"><input type="radio" id="windows" name="favorite-os" value="windows">Windows</label>
                 <label for="macOS"><input type="radio" id="macOS" name="favorite-os" value="macOS">MacOS</label>
                 <label for="linux"><input type="radio" id="linux" name="favorite-os" value="linux">Linux</label>
                 <br>
-                <label for="degree">Select your Degree:</label>
+                <label for="degree" required>Select your Degree:</label>
                 <select name="degree" id="degree">
                     <option value="none">No Degree/HS Diploma</option>
                     <option value="associates">Associate's Degree</option>
@@ -50,6 +51,8 @@
                     <option value="masters">Master's Degree</option>
                     <option value="phd">P.H.D.</option>
                 </select>
+                <br>
+                <input type="reset"><button type="submit">Submit</button>
             </form>
         </div>
     </main>
