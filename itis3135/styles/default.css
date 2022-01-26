@@ -16,6 +16,14 @@ header
     color: #27474E;
 }
 
+.subheader
+{
+    font-family: Courier, serif;
+    font-size: 10px;
+    text-align: center;
+    color: #27474E;
+}
+
 footer
 {
     font-family: Verdana, sans-serif;
