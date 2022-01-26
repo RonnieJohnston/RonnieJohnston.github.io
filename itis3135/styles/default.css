@@ -46,6 +46,24 @@ footer
     margin-right: 240px;
 }
 
+input[type="text"]
+{
+    border: 2px #998FC7;
+    border-radius: 4px;
+}
+
+input[type="number"]
+{
+    border: 2px #748E54;
+    border-radius: 4px;
+}
+
+input[type="email"]
+{
+    border: 2px #5C374C;
+    border-radius: 4px;
+}
+
 .colored-button1
 {
     background-color: #FBC4AB;
