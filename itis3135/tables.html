@@ -26,125 +26,121 @@
     <main>
         <div class="div-1">
             <h2>HTML Tables</h2>
-            <h3>My Tabular Data
-                <ol>
-                    <li>Name: Ronnie Johnston, Email: rjohn249@uncc.edu, Years of service: 5</li>
-                    <li>Name: Jones McJones, Email: jjones@gmail.com, Years of service: 5</li>
-                    <li>Name: Skylar McAfee, Email: smcafee@hotmail.com, Years of service: 5</li>
-                    <li>Name: Christopher Bee, Email: draculabee@hotmail.com, Years of service: 3</li>
-                    <li>Name: Barry Benson, Email: notabee@gmail.com, Years of service: 2</li>
-                    <li>Name: Cathy S. Stewart, Email: css@gmail.com, Years of service: 2</li>
-                    <li>Name: Norman Osborn, Email: greengobby@oscorp.com, Years of service: 1</li>
-                </ol>
-            </h3>
+            <h3>My Tabular Data</h3>
+            <ol>
+                <li>Name: Ronnie Johnston, Email: rjohn249@uncc.edu, Years of service: 5</li>
+                <li>Name: Jones McJones, Email: jjones@gmail.com, Years of service: 5</li>
+                <li>Name: Skylar McAfee, Email: smcafee@hotmail.com, Years of service: 5</li>
+                <li>Name: Christopher Bee, Email: draculabee@hotmail.com, Years of service: 3</li>
+                <li>Name: Barry Benson, Email: notabee@gmail.com, Years of service: 2</li>
+                <li>Name: Cathy S. Stewart, Email: css@gmail.com, Years of service: 2</li>
+                <li>Name: Norman Osborn, Email: greengobby@oscorp.com, Years of service: 1</li>
+            </ol>
             <br>
-            <h3>My Tabular Data
+            <h3>My Tabular Data</h3>
+            <table class="centered-table">
+                <tr>
+                    <th>Name:</th>
+                    <th>Email:</th>
+                    <th>Years of Service:</th>
+                </tr>
+                <tr>
+                    <td>Ronnie Johnston</td>
+                    <td>rjohn249@uncc.edu</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Jones McJones</td>
+                    <td>jjones@gmail.com</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Skylar McAfee</td>
+                    <td>smcafee@hotmail.com</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Christopher Bee</td>
+                    <td>draculabee@hotmail.com</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Barry Benson</td>
+                    <td>notabee@gmail.com</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Cathy S. Stewart</td>
+                    <td>css@gmail.com</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Norman Osborn</td>
+                    <td>greengobby@oscorp.com</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <br>
+            <h3>Employee Data in Complex Table</h3>
+            <figure>
                 <table class="centered-table">
-                    <tr>
-                        <th>Name:</th>
-                        <th>Email:</th>
-                        <th>Years of Service:</th>
+                    <tr class="table-top-row">
+                        <th>Category:</th>
+                        <th id="name">Name:</th>
+                        <th id="email">Email:</th>
+                        <th id="years">Years of Service:</th>
+                        <th id="salary">Salary (Monthly):</th>
                     </tr>
                     <tr>
-                        <td>Ronnie Johnston</td>
-                        <td>rjohn249@uncc.edu</td>
-                        <td>5</td>
+                        <th id="founders-design" rowspan="2">Founders & Design</th>
+                        <td headers="name founders-design">Ronnie Johnston</td>
+                        <td headers="email founders-design">rjohn249@uncc.edu</td>
+                        <td headers="years founders-design">5</td>
+                        <td headers="salary founders-design" rowspan="2">$9,000</td>
                     </tr>
                     <tr>
-                        <td>Jones McJones</td>
-                        <td>jjones@gmail.com</td>
-                        <td>5</td>
+                        <td headers="name founders-design">Jones McJones</td>
+                        <td headers="email founders-design">jjones@gmail.com</td>
+                        <td headers="years founders-design">5</td>
                     </tr>
                     <tr>
-                        <td>Skylar McAfee</td>
-                        <td>smcafee@hotmail.com</td>
-                        <td>5</td>
+                        <th id="marketing" rowspan="2">Marketing</th>
+                        <td headers="name marketing">Skylar McAfee</td>
+                        <td headers="email marketing">smcafee@hotmail.com</td>
+                        <td headers="years marketing">5</td>
+                        <td headers="salary marketing" rowspan="2">$8,500</td>
                     </tr>
                     <tr>
-                        <td>Christopher Bee</td>
-                        <td>draculabee@hotmail.com</td>
-                        <td>3</td>
+                        <td headers="name marketing">Christopher Bee</td>
+                        <td headers="email marketing">draculabee@hotmail.com</td>
+                        <td headers="years marketing">3</td>
                     </tr>
                     <tr>
-                        <td>Barry Benson</td>
-                        <td>notabee@gmail.com</td>
-                        <td>2</td>
+                        <th id="sales" rowspan="3">Sales</th>
+                        <td headers="name sales">Barry Benson</td>
+                        <td headers="email sales">notabee@gmail.com</td>
+                        <td headers="years sales">2</td>
+                        <td headers="salary sales" rowspan="2">$8,250</td>
                     </tr>
                     <tr>
-                        <td>Cathy S. Stewart</td>
-                        <td>css@gmail.com</td>
-                        <td>2</td>
+                        <td headers="name sales">Cathy S. Stewart</td>
+                        <td headers="email sales">css@gmail.com</td>
+                        <td headers="years sales">2</td>
                     </tr>
                     <tr>
-                        <td>Norman Osborn</td>
-                        <td>greengobby@oscorp.com</td>
-                        <td>1</td>
+                        <td headers="name sales">Norman Osborn</td>
+                        <td headers="email sales">greengobby@oscorp.com</td>
+                        <td headers="years sales">1</td>
+                        <td headers="salary sales">$8,000</td>
                     </tr>
+                    <tr>
+                        <th id="total" colspan="3">Total Years of Service:</th>
+                        <td headers="total years">23</td>
+                        <td headers="total salary">$59,500</td>
+                    </tr>                        
                 </table>
-            </h3>
-            <br>
-            <h3>Employee Data in Complex Table
-                <figure>
-                    <table class="centered-table">
-                        <tr class="table-top-row">
-                            <th>Category:</th>
-                            <th id="name">Name:</th>
-                            <th id="email">Email:</th>
-                            <th id="years">Years of Service:</th>
-                            <th id="salary">Salary (Monthly):</th>
-                        </tr>
-                        <tr>
-                            <th id="founders-design" rowspan="2">Founders & Design</td>
-                            <td headers="name founders-design">Ronnie Johnston</td>
-                            <td headers="email founders-design">rjohn249@uncc.edu</td>
-                            <td headers="years founders-design">5</td>
-                            <td headers="salary founders-design" rowspan="2">$9,000</td>
-                        </tr>
-                        <tr>
-                            <td headers="name founders-design">Jones McJones</td>
-                            <td headers="email founders-design">jjones@gmail.com</td>
-                            <td headers="years founders-design">5</td>
-                        </tr>
-                        <tr>
-                            <th id="marketing" rowspan="2">Marketing</td>
-                            <td headers="name marketing">Skylar McAfee</td>
-                            <td headers="email marketing">smcafee@hotmail.com</td>
-                            <td headers="years marketing">5</td>
-                            <td headers="salary marketing" rowspan="2">$8,500</td>
-                        </tr>
-                        <tr>
-                            <td headers="name marketing">Christopher Bee</td>
-                            <td headers="email marketing">draculabee@hotmail.com</td>
-                            <td headers="years marketing">3</td>
-                        </tr>
-                        <tr>
-                            <td id="sales" rowspan="3">Sales</td>
-                            <td headers="name sales">Barry Benson</td>
-                            <td headers="email sales">notabee@gmail.com</td>
-                            <td headers="years sales">2</td>
-                            <td headers="salary sales" rowspan="2">$8,250</td>
-                        </tr>
-                        <tr>
-                            <td headers="name sales">Cathy S. Stewart</td>
-                            <td headers="email sales">css@gmail.com</td>
-                            <td headers="years sales">2</td>
-                        </tr>
-                        <tr>
-                            <td headers="name sales">Norman Osborn</td>
-                            <td headers="email sales">greengobby@oscorp.com</td>
-                            <td headers="years sales">1</td>
-                            <td headers="salary sales">$8,000</td>
-                        </tr>
-                        <tr>
-                            <th id="total" colspan="3">Total Years of Service:</th>
-                            <td headers="total years">23</th>
-                            <td headers="total salary">$59,500</th>
-                        </tr>
-                        
-                    </table>
-                    <figcaption>Employee Information</figcaption>
-                </figure>
-            </h3>
+                <figcaption>Employee Information</figcaption>
+            </figure>
         </div>
     </main>
     <footer>
