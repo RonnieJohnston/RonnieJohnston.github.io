@@ -16,6 +16,11 @@ header
     color: #27474E;
 }
 
+a
+{
+    text-decoration: none;
+    color: #8CADA7;
+}
 .subheader
 {
     font-family: Courier, serif;
