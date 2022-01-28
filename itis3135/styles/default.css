@@ -57,8 +57,8 @@ footer
 .signature-link
 {
     font-family: Verdana, sans-serif;
+    text-decoration: underline;
     color: #FBC4AB;
-    font-weight: bold;
 }
 
 .form-1
