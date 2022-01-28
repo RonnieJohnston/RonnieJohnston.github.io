@@ -54,6 +54,12 @@ footer
     text-align: center;
 }
 
+.signature-link
+{
+    font-family: Verdana, sans-serif;
+    color: #FBC4AB;
+}
+
 .form-1
 {
     text-align: center;
