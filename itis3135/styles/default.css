@@ -16,14 +16,6 @@ header
     color: #27474E;
 }
 
-a
-{
-    font-family: Courier, serif;
-    text-decoration: none;
-    font-weight: bold;
-    color: #B4EDD2;
-}
-
 .subheader
 {
     font-family: Courier, serif;
@@ -37,6 +29,19 @@ footer
     font-family: Verdana, sans-serif;
     text-align: center;
     color: #FBC4AB;
+}
+
+nav
+{
+    color: #FBC4AB;
+}
+
+a
+{
+    font-family: Courier, serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #B4EDD2;
 }
 
 .left-align
