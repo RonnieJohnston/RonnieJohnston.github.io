@@ -116,6 +116,8 @@ ul
 
 .sub-ul
 {
+    display: block;
+    padding-inline-start: 55px;
     margin-left: 0px;
 }
 
