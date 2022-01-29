@@ -132,7 +132,7 @@ table, td, th
     margin-right: auto;
 }
 
-table tr:nth-child(even)
+table tr:nth-child(odd)
 {
     background-color: #27474E;
     color: #FFC4AB;
