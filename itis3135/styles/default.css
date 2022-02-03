@@ -44,6 +44,11 @@ a
     color: #B4EDD2;
 }
 
+a:hover
+{
+    color: #27474E;
+}
+
 .left-align
 {
     text-align: left;
