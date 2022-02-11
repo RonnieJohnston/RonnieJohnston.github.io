@@ -6,7 +6,10 @@ function scriptTest()
 function showDateTime() 
 {
     let today = new Date();
-    document.getElementById('date-label').innerHTML = "Current time is: " + today.getHours() + ":" + today.getMinutes() + ".  Today is: " + (today.getMonth()+1) + " " + today.getDate() + ", " + today.getFullYear() + ".";
+    let month = today.getMonth() + 1;
+
+    let monthWord = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+    document.getElementById('date-label').innerHTML = "Current time is: " + today.getHours() + ":" + today.getMinutes() + ".  Today is: " + monthWord[month] + " " + today.getDate() + ", " + today.getFullYear() + ".";
 }
 
 function formOutput()
