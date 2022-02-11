@@ -7,5 +7,5 @@ function formOutput()
 {
     let name = document.getElementById('firstname');
     let feeling = document.getElementById('feeling');
-    document.getElementById("output").innerHTML = "The Ruby Jackal welcomes you, " + name + "!  We're glad you are doing " + feeling + "!"
+    document.getElementById("output").innerHTML = "The Ruby Jackal welcomes you, " + name + "!  We're glad you are doing " + feeling + "!";
 }
