@@ -5,6 +5,7 @@ function scriptTest()
 
 function showDateTime() 
 {
+    let today = new Date();
     document.getElementById('date-label').innerHTML = "Current time is: " + today.getHours() + ":" + today.getMinutes() + ".  Today is: " + (today.getMonth()+1) + " " + today.getDate() + ", " + today.getFullYear() + ".";
 }
 
