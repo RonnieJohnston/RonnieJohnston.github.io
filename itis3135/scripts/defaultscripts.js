@@ -3,6 +3,11 @@ function scriptTest()
     alert("My script is running.");
 }
 
+function showDateTime() 
+{
+    document.getElementById('date-label').innerHTML = "Current time is: " + today.getHours() + ":" + today.getMinutes() + ".  Today is: " + (today.getMonth()+1) + " " + today.getDate() + ", " + today.getFullYear() + ".";
+}
+
 function formOutput()
 {
     let name = document.getElementById('firstname').value;

@@ -6,7 +6,7 @@
     <link href="styles/default.css" type="text/css" rel="stylesheet"/>
     <script src="scripts/defaultscripts.js"></script>
 </head>
-<body>
+<body onload="showDateTime();">
     <header>
         <h1>Ronnie Johnston | ITIS3135 | Ruby Jackal</h1>
         <p class="subheader">Think Design.</p>
@@ -31,6 +31,7 @@
     <main>
         <div class="div-1">
             <h2>First JS</h2>
+            <h3 id="date-label"></h3>
             <button onclick="scriptTest();">Test Script Function</button>
             <p>
                 What's your first name: <input type="text" placeholder="First Name" id="firstname" name="firstname" />
