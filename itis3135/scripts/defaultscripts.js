@@ -3,9 +3,9 @@ function scriptTest()
     alert("My script is running.");
 }
 
-function formOutput(name, feeling)
+function formOutput()
 {
-    name = document.getElementById("firstname");
-    feeling = document.getElementById("feeling");
+    let name = document.getElementById("firstname");
+    let feeling = document.getElementById("feeling");
     document.getElementById("output").innerHTML = "The Ruby Jackal welcomes you, " + name + "!  We're glad you are doing " + feeling + "!"
 }
