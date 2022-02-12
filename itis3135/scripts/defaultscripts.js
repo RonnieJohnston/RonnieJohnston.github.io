@@ -50,7 +50,7 @@ function calcAvg()
     document.getElementById('output3').innerHTML = "Average work time is: " + ((hours1 + hours2 + hours3 + hours4 + hours5) / numWorkers) + " hours.";
 }
 
-function modular()
+function modularCalc()
 {
     let jackals = document.getElementById('jackals').value;
     let cookies = document.getElementById('cookies').value;
