@@ -44,6 +44,11 @@ a
     color: #B4EDD2;
 }
 
+h3
+{
+    text-align: center;
+}
+
 a:hover
 {
     color: #27474E;

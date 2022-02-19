@@ -56,3 +56,33 @@ function modularCalc()
     let cookies = document.getElementById('cookies').value;
     document.getElementById('output4').innerHTML = "Remaining cookies: " + (cookies % jackals) + ".";
 }
+
+function getShape()
+{
+    let numSides = prompt("Ruby Jackal would like to know how many sides your polygon has (0-10).", "0");
+    while(!validateEntry(numSides)) 
+    {
+        numSides = prompt("Please enter a number from 0-10.", "0")
+    }
+    /* Polygon array holding names for sides 0-10 */
+    let shapeArray = new Array("Nothing!", "a Henagon", "a Digon", "a Trigon", "a Tetragon", "a Pentagon", "a Hexagon", "a Heptagon", "an Octagon", "an Enneagon", "a Decagon");
+    document.getElementById('output').innerHTML = "Ruby Jackal says your shape is " + shapeArray[numSides]; 
+}
+
+function validateEntry(entry)
+{
+    /* Function that validates the sides entry is between 0-10 unsigned */
+    if(isNaN(entry)) 
+    {
+        return false;
+
+    }
+    Math.round(entry);
+
+    if (Math.abs(entry) > 10)
+    {
+        return false;
+
+    }
+    return true;
+}
