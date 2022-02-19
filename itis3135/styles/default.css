@@ -52,8 +52,7 @@ h3
 .centered-button
 {
     display: block;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 45%;
 }
 
 a:hover
