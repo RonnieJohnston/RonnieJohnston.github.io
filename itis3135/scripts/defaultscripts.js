@@ -65,7 +65,7 @@ function getShape()
         numSides = prompt("Please enter a number from 0-10.", "0")
     }
     /* Polygon array holding names for sides 0-10 */
-    Math.abs(numSides);
+    numSides = Math.abs(numSides);
     let shapeArray = new Array("Nothing!", "a Henagon", "a Digon", "a Trigon", "a Tetragon", "a Pentagon", "a Hexagon", "a Heptagon", "an Octagon", "an Enneagon", "a Decagon");
     document.getElementById('output').innerHTML = "Ruby Jackal says your shape is " + shapeArray[numSides]; 
 }
@@ -78,7 +78,7 @@ function validateEntry(entry)
         return false;
 
     }
-    Math.round(entry);
+    entry = Math.round(entry);
 
     if (Math.abs(entry) > 10)
     {
