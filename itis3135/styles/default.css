@@ -49,6 +49,13 @@ h3
     text-align: center;
 }
 
+.centered-button
+{
+    display: block;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
 a:hover
 {
     color: #27474E;
