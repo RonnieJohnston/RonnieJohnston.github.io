@@ -108,6 +108,17 @@ a:hover
     display: block;
 }
 
+.dropdown:hover .dropdowncontent
+{
+    
+    display: block;
+}
+
+.dropdown:hover .dropdownbutton
+{
+    background-color: #DD403A;
+}
+
 .signature-link
 {
     font-family: Verdana, sans-serif;
