@@ -84,6 +84,9 @@ a:hover
 .dropdownbutton 
 {
     background-color: #DD403A;
+    font-family: Courier, serif;
+    text-decoration: none;
+    font-weight: bold;
     color: #B4EDD2;
     padding: 5px;
     border: none;
