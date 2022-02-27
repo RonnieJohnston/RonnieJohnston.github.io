@@ -149,6 +149,12 @@ h2
     grid-template-columns: repeat(4, 1fr);
 }
 
+.calculatorsubmitkey
+{
+    grid-column: -2;
+    grid-row: 2 / span 4;
+}
+
 .signature-link
 {
     font-family: Verdana, sans-serif;
