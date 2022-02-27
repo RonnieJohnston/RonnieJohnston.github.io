@@ -2,7 +2,7 @@ function appendNum(inputNum)
 {
     outputString = document.getElementById('output').value;
     
-    if(outputString == null)
+    if(outputString == 0)
     {
         outputString = inputNum;
         document.getElementById('output').innerHTML = outputString;
