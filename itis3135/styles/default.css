@@ -124,8 +124,7 @@ h2
 .calculator
 {
     border-radius: 0px;
-    border-width: 2px;
-    border-color: black;
+    border: 2px solid black;
     margin-left: auto;
     margin-right: auto;
     margin-top: 32px;
