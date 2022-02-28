@@ -76,6 +76,9 @@ window.onload = function()
 
             if(action === 'calculate')
             {
+                const firstValue = calculator.dataset.firstValue;
+                const operator = calculator.dataset.operator;
+                const secondValue = calculator.dataset.secondValue;
                 display.textContent = calculate(firstValue, operator, secondValue);
                 console.log('equal key!');
             }
