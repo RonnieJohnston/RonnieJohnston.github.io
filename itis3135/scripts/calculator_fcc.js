@@ -12,6 +12,7 @@ window.onload = function()
             const action = key.dataset.action;
             const keyContent = key.textContent;
             const displayedNum = display.textContent;
+            const previousKeyType = calculator.dataset.previousKeyType;
 
             Array.from(key.parentNode.children)
                 .forEach(k => k.classList.remove('is-depressed'));
@@ -53,10 +54,6 @@ window.onload = function()
 
             if(action === 'calculate')
             {
-                const firstValue = calculator.datset.firstValue;
-                const operator = calculator.dataset.operator;
-                const secondValue = displayedNum;
-
                 display.textContent = calculate(firstValue, operator, secondValue);
                 console.log('equal key!');
             }
