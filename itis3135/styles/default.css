@@ -158,6 +158,14 @@ h2
     grid-row: 2 / span 4;
 }
 
+.key-equal
+{
+    display: grid;
+    gap: 1px;
+    grid-column: -2;
+    grid-row: 2 / span 4;
+}
+
 .signature-link
 {
     font-family: Verdana, sans-serif;
