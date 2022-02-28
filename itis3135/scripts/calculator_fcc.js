@@ -1,39 +1,42 @@
-const calculator = document.querySelector('.calculator');
-const keys = calculator.querySelector('.calculatorkeys');
-
-keys.addEventListener('click', e => 
+window.onload = function()
 {
-    if (e.target.matches('button')) 
+    const calculator = document.querySelector('.calculator');
+    const keys = calculator.querySelector('.calculatorkeys');
+
+    keys.addEventListener('click', e => 
     {
-        const key = e.target;
-        const action = key.dataset.action;
-
-        if(!action)
+        if (e.target.matches('button')) 
         {
-            console.log('number key!');
-        }
+            const key = e.target;
+            const action = key.dataset.action;
 
-        if
-        (
-            action === 'add' || action === 'subtract' || action === 'multiply' || action === 'divide'
-        )
-        {
-            console.log('operator key!');
-        }
+            if(!action)
+            {
+                console.log('number key!');
+            }
 
-        if(action === 'decimal')
-        {
-            console.log('decimal key!');
-        }
+            if
+            (
+                action === 'add' || action === 'subtract' || action === 'multiply' || action === 'divide'
+            )
+            {
+                console.log('operator key!');
+            }
 
-        if(action === 'clear')
-        {
-            console.log('clear key!');
-        }
+            if(action === 'decimal')
+            {
+                console.log('decimal key!');
+            }
 
-        if(action === 'calculate')
-        {
-            console.log('equal key!');
+            if(action === 'clear')
+            {
+                console.log('clear key!');
+            }
+
+            if(action === 'calculate')
+            {
+                console.log('equal key!');
+            }
         }
-    }
-})
+    })
+}
