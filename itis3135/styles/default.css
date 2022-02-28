@@ -124,6 +124,8 @@ h2
 .calculator
 {
     border-radius: 0px;
+    border-width: 2px;
+    border-color: black;
     margin-left: auto;
     margin-right: auto;
     margin-top: 32px;
@@ -132,7 +134,7 @@ h2
 
 .calculatordisplay
 {
-    background-color: #DD403A;
+    background-color: #511C29;
     color: #FBC4AB;
     font-size: 1.714285714em;
     padding: 0.5em 0.75em;
