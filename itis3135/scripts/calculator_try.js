@@ -1,6 +1,6 @@
 function appendNum(inputNum)
 {
-    outputString = document.getElementById('output').value;
+    outputString = document.getElementById('output');
     
     if(outputString == 0)
     {
