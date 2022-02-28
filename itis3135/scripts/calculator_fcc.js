@@ -48,6 +48,7 @@ window.onload = function()
                 {
                     display.textContent = displayedNum + keyContent;
                 }
+                calculator.dataset.previousKeyType = 'number';
                 console.log('number key!');
             }
 
@@ -60,17 +61,38 @@ window.onload = function()
                 calculator.dataset.previousKeyType = 'operator';
                 calculator.dataset.firstValue = displayedNum;
                 calculator.dataset.operator = action;
+                const secondValue = displayedNum;
+                const operator = calculator.dataset.operator;
+                const firstValue = calculator.dataset.firstValue;
+
+                if (firstValue && operator)
+                {
+                    display.textContent = calculate(firstValue, operator, secondValue);
+                }
+
+                key.classList.add('is-depressed')
+                    calculator.dataset.previousKeyType = 'operator';
+                    calculator.dataset.firstValue = displayedNum;
+                    calculator.dataset.operator = action;
                 console.log('operator key!');
             }
 
             if(action === 'decimal')
             {
-                display.textContent = displayedNum + '.';
+                if(!displayedNum.includes('.'))
+                {
+                    display.textContent = displayedNum + '.';
+                } else if (previousKeyType === 'operator')
+                {
+                    display.textContent = '0.';
+                }
+                calculator.dataset.previousKeyType = 'decimal';
                 console.log('decimal key!');
             }
 
             if(action === 'clear')
             {
+                calculator.dataset.previousKeyType = 'clear';
                 console.log('clear key!');
             }
 
@@ -80,6 +102,7 @@ window.onload = function()
                 const operator = calculator.dataset.operator;
                 const secondValue = displayedNum;
                 display.textContent = calculate(firstValue, operator, secondValue);
+                calculator.dataset.previousKeyType = 'calculate';
                 console.log('equal key!');
             }
         }
