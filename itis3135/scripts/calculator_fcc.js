@@ -68,7 +68,7 @@ window.onload = function()
                     calculator.dataset.firstValue = calcValue;
                 } else
                 {
-                    calculator.datset.firstValue = displayedNum;
+                    calculator.dataset.firstValue = displayedNum;
                 }
 
                 key.classList.add('is-depressed');
