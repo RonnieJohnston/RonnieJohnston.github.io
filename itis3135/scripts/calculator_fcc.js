@@ -78,7 +78,7 @@ window.onload = function()
             {
                 const firstValue = calculator.dataset.firstValue;
                 const operator = calculator.dataset.operator;
-                const secondValue = calculator.dataset.secondValue;
+                const secondValue = displayedNum;
                 display.textContent = calculate(firstValue, operator, secondValue);
                 console.log('equal key!');
             }
