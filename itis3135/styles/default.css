@@ -92,6 +92,11 @@ h2
     border: none;
 }
 
+.dropdownbutton:hover
+{
+    color: #27474E;
+}
+
 .dropdowncontent 
 {
     display: none;
