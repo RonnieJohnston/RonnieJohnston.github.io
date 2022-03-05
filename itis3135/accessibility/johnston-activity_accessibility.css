@@ -39,6 +39,12 @@ th {
   
 }
 
+td img
+{
+  width: 50%;
+  height: 50%;
+}
+
 th {
   padding-top: 5px;
   padding-bottom: 5px;
