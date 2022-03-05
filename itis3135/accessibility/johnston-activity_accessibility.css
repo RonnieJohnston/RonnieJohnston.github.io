@@ -77,9 +77,6 @@ form {
 
 /* footer bottom of page*/
 footer {
-  position: absolute;
-  bottom: 0;
-  right: 0;
   padding-right: 70px;
  
 }
