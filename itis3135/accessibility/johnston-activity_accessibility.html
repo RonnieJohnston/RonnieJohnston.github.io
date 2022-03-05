@@ -33,7 +33,7 @@
       <tbody>
         <tr>
           <th>Birthday Candles</th>
-          <td><img src="images/Birthday-Candles.jpg"></td>
+          <td><img src="images/Birthday-Candles.jpg" alt="Image of birthday candles"></td>
           <td>
             <ol>
               <li>Comes in a range of fun, vibrant colors</li>
@@ -44,7 +44,7 @@
         </tr>
         <tr>
           <th>Voltives</th>
-          <td><img src="images/voltives.jpeg"></td>
+          <td><img src="images/voltives.jpeg" alt="Image of Voltive candles"></td>
           <td>
             <ol>
               <li>Inexpensive and easy to use</li>
@@ -54,7 +54,7 @@
         </tr>
         <tr>
           <th>Taper Candles</th>
-          <td><img src="images/taper-candles.jpg"></td>
+          <td><img src="images/taper-candles.jpg" alt="Image of taper candles"></td>
           <td>
             <ol>
               <li>Commonly known as window candles</li>
@@ -65,7 +65,15 @@
       </tbody>
     </table>
      <!--Add the form here-->
-    
+    <form>
+      <label for="name">Name:</label>
+      <input id="name" type="text" aria-required="true" />
+      <br />
+      <label for="phone-number">Phone #:</label>
+      <input id="phone-number" type="tel" aria-required="true" aria-invalid="true" />
+      <br />
+      <input type="submit" name="submit" value="Submit" />
+    </form>
    
     <div class="whitespace"></div>
     <a href="https://teachaccess.github.io/tutorial/#/12">Click here to find more about accessibility</a>
