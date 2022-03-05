@@ -39,7 +39,8 @@ th {
   
 }
 
-td img
+td,
+img
 {
   width: 50%;
   height: 50%;
