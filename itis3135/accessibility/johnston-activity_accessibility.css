@@ -81,6 +81,11 @@ footer {
  
 }
 
+footer img
+{
+  size: auto;
+}
+
 abbr {
   text-decoration: none;
 
