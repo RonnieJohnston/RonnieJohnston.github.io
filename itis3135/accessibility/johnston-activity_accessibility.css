@@ -61,6 +61,12 @@ form {
   color:black;
 }
 
+#submit
+{
+  background-color: #2B4162;
+  color: #FFD9DA;
+}
+
 
 /* footer bottom of page*/
 footer {
