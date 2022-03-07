@@ -78,10 +78,21 @@ h2
 .arraycontrols
 {
     display: grid;
+    margin-left: 33%;
+    margin-right: 33%;
+    background-color: #27474E;
     border: 2px solid black;
     border-radius: 8px;
     margin-top: 5px;
     width: 50%;
+}
+
+.arraybuttons
+{
+    display: inline;
+    background-color: #FBC4AB;
+    gap: 2px;
+    width: 33%;
 }
 
 .dropdown
