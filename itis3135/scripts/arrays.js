@@ -1,5 +1,6 @@
 let personArray = new Array();
 let salaryArray = new Array();
+let employeeTableBody = document.getElementById('employeetablebody');
 
 function addSalary()
 {
@@ -20,5 +21,8 @@ function displayResults()
 
 function displaySalary()
 {
-
+    for(let i = 0; i < personArray.length; i++)
+    {
+        let row = employeeTable.inser
+    }
 }
