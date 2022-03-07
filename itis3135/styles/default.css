@@ -75,6 +75,15 @@ h2
     text-align: center;
 }
 
+.arraycontrols
+{
+    display: grid;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 5px;
+    width: 50%;
+}
+
 .dropdown
 {
     position: relative;
