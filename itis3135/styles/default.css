@@ -80,6 +80,7 @@ h2
     display: grid;
     margin-left: 33%;
     margin-right: 33%;
+    justify-items: center;
     background-color: #27474E;
     border: 2px solid black;
     border-radius: 8px;
