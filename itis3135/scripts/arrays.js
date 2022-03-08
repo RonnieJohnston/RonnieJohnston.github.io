@@ -23,6 +23,11 @@ function addSalary()
 
     personArray.push(name);
     salaryArray.push(salary);
+
+    let testname = personArray.toString();
+    let testsalary = salaryArray.toString();
+
+    $('testline').innerHTML = "personArray: " + testname + "<br />" + "salaryArray: " + testsalary;
 }
 
 function displayResults()
