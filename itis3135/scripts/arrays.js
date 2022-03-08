@@ -61,7 +61,7 @@ function calcAvg()
     $('testline2').innerHTML = salaryArray.length;
 
     /* Return average salary */
-    return (sum / salaryArray.length);
+    return (sum / salaryArray.length).toFixed(2);
 }
 
 /* Calculate highest salary from array */
