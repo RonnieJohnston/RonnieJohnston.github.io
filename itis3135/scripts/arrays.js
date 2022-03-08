@@ -52,7 +52,7 @@ function calcHighest()
     let highestPerson = null;
     for(let i = 0; i < salaryArray.length; i++)
     {
-        if(salaryArray[i] > highest)
+        if(salaryArray[i] > highestSalary)
         {
             highestSalary = salaryArray[i];
             highestPerson = personArray[i];
@@ -64,10 +64,10 @@ function calcHighest()
 
 function displaySalary()
 {
-    $('#employeetablebody').remove();
+    $('employeetablebody').remove();
     for(let i = 0; i < personArray.length; i++)
     {
-        let row = $('#employeetablebody').insertRow(i);
+        let row = $('employeetablebody').insertRow(i);
         let cell0 = row.insertCell(0);
         let cell1 = row.insertCell(1);
         cell0.innerHTML = personArray[i];
