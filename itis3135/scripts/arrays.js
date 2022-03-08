@@ -64,13 +64,16 @@ function calcHighest()
 
 function displaySalary()
 {
-    $('employeetable').remove();
     for(let i = 0; i < personArray.length; i++)
     {
-        let row = $('employeetable').insertRow(i);
+        let row = $('employeetablebody').insertRow(i);
         let cell0 = row.insertCell(0);
         let cell1 = row.insertCell(1);
         cell0.innerHTML = personArray[i];
         cell1.innerHTML = salaryArray[i];
+        if(i > 0)
+        {
+            $('employeetablebody').deleteRow(i - 1);
+        }
     }
 }
