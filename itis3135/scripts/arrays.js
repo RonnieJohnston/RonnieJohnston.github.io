@@ -46,6 +46,7 @@ function calcAvg()
         let temp = parseFloat(salaryArray[i]).toFixed(2);
         sum += temp;
     }
+    $('testline2').innerHTML = salaryArray.length;
     return (sum / salaryArray.length);
 }
 
