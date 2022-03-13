@@ -294,6 +294,7 @@ table tr:nth-child(odd)
 {
     color: #EDAF97;
     font-family: 'Work Sans', sans-serif;
+    display: block;
 }
 
 .design-h1
@@ -316,6 +317,7 @@ table tr:nth-child(odd)
 .design-ul
 {
     font-family: 'Work Sans', sans-serif;
+    display: block;
     color: #6A8E7F;
 }
 
