@@ -294,7 +294,7 @@ table tr:nth-child(odd)
 {
     color: #EDAF97;
     font-family: 'Work Sans', sans-serif;
-    display: block;
+    text-align: left;
 }
 
 .design-h1
