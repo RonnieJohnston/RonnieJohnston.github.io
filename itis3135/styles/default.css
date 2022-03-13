@@ -282,3 +282,61 @@ table tr:nth-child(odd)
     background-color: #280003;
     color: #FFC4AB;
 }
+
+/* Design Firm Page Styling */
+.design-body
+{
+    background-color: #A3BCF9;
+    margin-left: 10%;
+}
+
+.design-footer
+{
+    color: #EDAF97;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.design-h1
+{
+    font-family: 'Source Serif 4', serif;
+    color: #7A6563;
+}
+
+.design-h2{
+    font-family: 'Source Serif 4', serif;
+    color: #7A6563;
+}
+
+.design-p
+{
+    font-family: 'Work Sans', sans-serif;
+    color: #6A8E7F;
+}
+
+.design-ul
+{
+    font-family: 'Work Sans', sans-serif;
+    color: #6A8E7F;
+}
+
+.design-logo
+{
+    width: 170px;
+    height: 125px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo-text
+{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.motto
+{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 50px;
+}
