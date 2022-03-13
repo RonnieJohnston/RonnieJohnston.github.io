@@ -314,6 +314,17 @@ table tr:nth-child(odd)
     color: #6A8E7F;
 }
 
+.design-dropdownbutton
+{
+    background-color: #A3BCF9;
+    font-family: Courier, serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #B4EDD2;
+    padding: 5px;
+    border: none;
+}
+
 .design-ul
 {
     font-family: 'Work Sans', sans-serif;
