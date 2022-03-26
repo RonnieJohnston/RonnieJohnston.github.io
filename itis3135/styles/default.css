@@ -269,6 +269,7 @@ ol
 {
     width: 550px;
     height: 550px;
+    border: 1px solid #27474E;
 }
 
 table, td, th
