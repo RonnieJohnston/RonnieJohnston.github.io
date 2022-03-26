@@ -269,7 +269,8 @@ ol
 {
     width: 550px;
     height: 550px;
-    border: 1px solid #27474E;
+    border: 3px solid #27474E;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 table, td, th
