@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () =>
     const mainImage = $("#main-image");
 
     //get a tags in ul
-    const links = $("#image-list").querySelectorAll("a");
+    const links = $("#image-list").querySelectorAll('a');
 
     //process image links
     const imageCache = [];
