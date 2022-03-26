@@ -1,17 +1,17 @@
 const $ = function(id) 
 {
-    document.getElementById(id);
+    document.querySelector(id);
 }
 
 document.addEventListener("DOMContentLoaded", () => 
 {
     //caption h2 element
-    const caption = $("caption");
+    const caption = $("#caption");
     //img element to show
-    const mainImage = $("main-image");
+    const mainImage = $("#main-image");
 
     //get a tags in ul
-    const links = $("image-list").getElementsByTagName("a");
+    const links = $("#image-list").querySelectorAll("a");
 
     //process image links
     const imageCache = [];
