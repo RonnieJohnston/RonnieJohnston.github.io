@@ -260,6 +260,11 @@ ol
     margin: 0 auto;
 }
 
+.image-list
+{
+    display: none;
+}
+
 table, td, th
 {
     border: 1px solid black;
