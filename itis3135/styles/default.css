@@ -265,6 +265,12 @@ ol
     display: none;
 }
 
+#main-image
+{
+    width: 550px;
+    height: 550px;
+}
+
 table, td, th
 {
     border: 1px solid black;
