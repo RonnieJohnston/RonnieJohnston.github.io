@@ -1,6 +1,6 @@
 const $ = function(id) 
 {
-    document.getElementById(id);
+    return document.getElementById(id);
 }
 
 document.addEventListener("DOMContentLoaded", () => 
