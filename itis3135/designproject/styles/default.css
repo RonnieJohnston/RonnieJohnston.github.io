@@ -1,0 +1,35 @@
+body
+{
+  background-color: #337CA0;
+  color: #C9C9C9;
+}
+
+h1
+{
+  text-align: center;
+  
+}
+
+.nav a
+{
+  text-decoration: none;
+  color: #FAFFEA;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.nav a:hover
+{
+  color: black;
+}
+
+.nav
+{
+  background-color: #2C6E39;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
