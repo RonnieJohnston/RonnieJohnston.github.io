@@ -20,6 +20,28 @@ p
     font-family: 'M PLUS 1', sans-serif;
 }
 
+.gallery-holder
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.left-figure
+{
+    float: left;
+}
+
+.right-figure
+{
+    float: right;
+}
+
+figcaption
+{
+    background-color: #2C6E39;
+    display: inline;
+}
+
 .nav a
 {
     text-decoration: none;
