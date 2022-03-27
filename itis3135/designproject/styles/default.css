@@ -1,7 +1,7 @@
 body
 {
-  background-color: #337CA0;
-  color: #C9C9C9;
+    background-color: #337CA0;
+    color: #C9C9C9;
 }
 
 main
@@ -11,30 +11,36 @@ main
 
 h1
 {
-  text-align: center;
-  font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+p
+{
+    font-family: 'M PLUS 1', sans-serif;
 }
 
 .nav a
 {
-  text-decoration: none;
-  color: #FAFFEA;
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    color: #FAFFEA;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 .nav a:hover
 {
-  color: black;
+    color: black;
 }
 
 .nav
 {
-  background-color: #2C6E39;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  overflow: hidden;
+    background-color: #2C6E39;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
 }
