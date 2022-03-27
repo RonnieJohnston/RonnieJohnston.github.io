@@ -35,6 +35,11 @@ p
     margin-right: 25%;
 }
 
+#structure-content
+{
+    display: auto;
+}
+
 .gallery-holder
 {
     margin-left: 50px;
