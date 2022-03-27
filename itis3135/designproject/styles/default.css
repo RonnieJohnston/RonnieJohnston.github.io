@@ -29,6 +29,7 @@ p
 .left-figure
 {
     float: left;
+    clear: both;
 }
 
 .right-figure
