@@ -275,8 +275,8 @@ ol
 
 #image_list
 {
+    float: left;
     list-style-type: none;
-    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
@@ -285,7 +285,7 @@ ol
 {
     width: 250px;
     height: 250px;
-    display: inline;
+    display: block;
 }
 
 table, td, th
