@@ -277,15 +277,18 @@ ol
 {
     float: left;
     list-style-type: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+}
+
+#image_list li
+{
+    display: inline;
 }
 
 #image_list img
 {
     width: 250px;
     height: 250px;
-    display: block;
+    display: inline;
 }
 
 table, td, th
