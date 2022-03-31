@@ -286,9 +286,14 @@ ol
 
 #image_list img
 {
-    width: 250px;
-    height: 250px;
+    width: 175px;
+    height: 175px;
     display: inline;
+}
+
+#image
+{
+    text-align: center;
 }
 
 table, td, th
