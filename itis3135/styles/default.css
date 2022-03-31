@@ -276,6 +276,7 @@ ol
 #image_list
 {
     list-style-type: none;
+    display: inline;
 }
 
 #image_list img
