@@ -12,8 +12,8 @@ $(document).ready(function() {
         $("#image").fadeOut(500, function() {
             $("#image").attr("src", link.href);
             $("#image").fadeIn(1000);
+            $("#caption").text(link.title);
         })
-        $("#caption").text(link.title);
         // prevent default action
         evt.preventDefault();
     })
