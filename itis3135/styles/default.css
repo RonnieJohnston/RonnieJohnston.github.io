@@ -273,6 +273,17 @@ ol
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
+#image_list
+{
+    list-style-type: none;
+}
+
+#image_list img
+{
+    width: 250px;
+    height: 250px;
+}
+
 table, td, th
 {
     border: 1px solid black;

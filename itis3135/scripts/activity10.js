@@ -11,11 +11,9 @@ $(document).ready(function() {
         const link = evt.currentTarget;
         $("#image").attr("src", link.href);
         $("#caption").text(link.title);
+        // prevent default action
         evt.preventDefault();
     })
-            // get the image URL and caption for each image and animate the caption
-
-        // cancel the default action of each link
 
 
 // move the focus to the first link
