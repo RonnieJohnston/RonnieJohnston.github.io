@@ -276,13 +276,16 @@ ol
 #image_list
 {
     list-style-type: none;
-    display: inline;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 #image_list img
 {
     width: 250px;
     height: 250px;
+    display: inline;
 }
 
 table, td, th
