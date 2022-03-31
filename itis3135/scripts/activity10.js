@@ -9,7 +9,10 @@ $(document).ready(function() {
     // set up the event handlers for each link
     $("#image_list a").click( evt => {
         const link = evt.currentTarget;
-        $("#image").attr("src", link.href);
+        $("#image").fadeOut(500, function() {
+            $("#image").attr("src", link.href);
+            $("#image").fadeIn(1000);
+        })
         $("#caption").text(link.title);
         // prevent default action
         evt.preventDefault();
