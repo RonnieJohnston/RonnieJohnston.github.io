@@ -32,9 +32,8 @@
         list-style-type: none;
         margin: 1em;
       }
-      
-      nav li:hover
-      {
+
+      nav li:hover {
         color: #DD6E42;
       }
 
@@ -52,14 +51,19 @@
         text-align: center;
       }
 
-      #home-page-content
-      {
-          display: auto;
+      #home-page-content {
+        display: auto;
       }
 
-      #systems-page-content
+      #systems-page-content {
+        display: none;
+      }
+      
+      .video-container
       {
-          display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       .validation_link_css {
@@ -97,28 +101,51 @@
       </nav>
     </header>
     <main>
-        <div id="home-page-content">
-            <h2 class="page-title">Home Page</h2>
-            <p>Hello! My name is Ronnie Johnston and this site is dedicated to my passion for video games! Here you'll find the kind of games I like, the systems I mainly play on, and my history with video games.</p>
-            <br />
-            <p>Currently, I am studying to become a software engineer, but I have interest in the construction and design of video games. I mainly play single player and co-op games. If anyone wants to talk video games with me my Discord is @Generic#9454.</p>
+      <div id="home-page-content">
+        <h2 class="page-title">Home Page</h2>
+        <p>Hello! My name is Ronnie Johnston and this site is dedicated to my passion for video games! Here you'll find the kind of games I like, the systems I mainly play on, and my history with video games.</p>
+        <br />
+        <p>Currently, I am studying to become a software engineer, but I have interest in the construction and design of video games. I mainly play single player and co-op games. If anyone wants to talk video games with me my Discord is @Generic#9454.</p>
+      </div>
+      <div id="systems-page-content">
+        <h2 class="page-title">Systems</h2>
+        <p>Currently, I play exclusively on PC and on Nintendo Switch. The main reason why I like these two systems the most is because PC has the flexibility to customize games to my liking, while allowing me to easily switch between programs. I like the Switch because it has, in my opinion, a fantastic library of games while remaining portable.</p>
+        <br />
+        <p>I do need to upgrade my PC at some point in the future. Currently I am running a Ryzen 5 2600 || RX 580 4GB with only 8GB RAM (yikes!)</p>
+      </div>
+      <div id="favorites-page-content">
+        <h2 class="page-title">Current Favorite Games</h2>
+        <p>
+          My most played game right now, and one of my all-time favorites is <em>The Binding of Isaac: Repentance</em>.  If you haven't heard of it, it's a twin-stick roguelike, which means no two playthoughs of the game are identical.  The amount of content in this game is impressive, with over 600 different achievements.  It took me over 1,100 hours to complete it all, so keep that in mind if you are a completionist!
+        </p><br />
+        <p>
+          As a warning, the game is not afraid to utilize gross and horrifying subjects (M rated), and the game does touch on religion and it's effects on the protagonist, Isaac.  Moving past that, it is a game that I constantly find myself always coming back to.  Finished all my work for the day?  Play a round of Isaac.  Tired of another game?  Start an Isaac run.  Want to play a fun co-op rougelike with friends?  Isaac has that, too!  Seriously, I could talk about this game for hours, but we have more to get to!
+        </p>
+        <p>
+          Next up is <em>Devil Daggers</em>.  I'm warning you up front, this game is <strong>HARD</strong>.  To sum it up, you are placed in a circular arena, with hordes of demon skulls spawning in with a single objective: to hunt you down.  As more waves come in, their numbers and difficulty increase.  And your arsenal of weapons?  A hand that can shoot daggers, that's all.  Note how I haven't mentioned HP yet, because it doesn't exist.  One hit from anything and it's back to the start!
+        </p>
+        <br />
+        <p>
+          This is one of those games that make you feel like you are always on the brink of being overwhelmed.  It's also one of those games that is hard to put down when you pick it up, as there is a leaderboard system that you are constantly trying to move up over time.  The longer you survive, the higher up on the leaderboard you'll be.  Most lie within 60-200 seconds, and the current world record time is over 1200 seconds!  As you play more, you'll start to notice subtle details placed to help you.  EVERY enemy type has a different, distinct sound they make, and if you are wearing headphones you can start to tell when you are in danger, but more importantly, where that danger is coming from and what type it is.
+        </p>
+        <br />
+        <p>
+          There's countless things in this game that show the people behind it knew how to develop a phenomenal first-person arena shooter.  Just like Isaac, I could talk about these details forever, but I'll just leave you with this video discussing the beauty of this game.
+        </p>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/63hIc-i1bY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div id="systems-page-content">
-            <h2 class="page-title">Systems</h2>
-            <p>Currently, I play exclusively on PC and on Nintendo Switch.  The main reason why I like these two systems the most is because PC has the flexibility to customize games to my liking, while allowing me to easily switch between programs.  I like the Switch because it has, in my opinion, a fantastic library of games while remaining portable.</p>
-            <br />
-            <p>I do need to upgrade my PC at some point in the future.  Currently I am running a Ryzen 5 2600 || RX 580 4GB with only 8GB RAM (yikes!)</p>
-        </div>
+      </div>
     </main>
     <footer>
-        <p><a id="validation_link_css" href="https://jigsaw.w3.org/css-validator/check/referer"><img alt="CSS-validator" src="../images/button_validation_css.png"></a>
-          <a id="validation_link_html" href="https://validator.w3.org/check?uri=referer"><img alt="HTML-validator" src="../images/button_validation_html5.png"></a></p>
-        <script>
-          document.getElementById('validation_link_css').setAttribute('href', 'https://jigsaw.w3.org/css-validator/check?uri=' + location.href);
-          document.getElementById('validation_link_html').setAttribute('href', 'https://validator.w3.org/check?uri=' + location.href);
-  
-        </script>
-      </footer>
+      <p><a id="validation_link_css" href="https://jigsaw.w3.org/css-validator/check/referer"><img alt="CSS-validator" src="../images/button_validation_css.png"></a>
+        <a id="validation_link_html" href="https://validator.w3.org/check?uri=referer"><img alt="HTML-validator" src="../images/button_validation_html5.png"></a></p>
+      <script>
+        document.getElementById('validation_link_css').setAttribute('href', 'https://jigsaw.w3.org/css-validator/check?uri=' + location.href);
+        document.getElementById('validation_link_html').setAttribute('href', 'https://validator.w3.org/check?uri=' + location.href);
+
+      </script>
+    </footer>
   </body>
 
 </html>
