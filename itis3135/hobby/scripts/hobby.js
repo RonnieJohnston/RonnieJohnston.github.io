@@ -5,6 +5,7 @@ function $(id)
 
 window.addEventListener("click", function(evt)
 {
+  console.log("click detected")
 	if(evt.target == $("home-button"))
   {
   	$("home-page-content").style.display = "auto";
