@@ -3,7 +3,7 @@ function $(id)
 	return document.getElementById(id);
 }
 
-window.onclick = function(evt)
+window.addEventListener("click", function(evt)
 {
 	if(evt.target == $("home-button"))
   {
@@ -44,4 +44,4 @@ window.onclick = function(evt)
   {
   	$("about-page-content").style.display = "none";
   }
-}
+})
