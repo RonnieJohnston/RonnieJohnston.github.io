@@ -34,4 +34,9 @@ window.addEventListener('click', function(evt) {
   } else if (evt.target == $('systems-button') || evt.target == $('favorites-button') || evt.target == $('wishlist-button') || evt.target == $('home-button')) {
     $('about-page-content').style.display = 'none';
   }
+
+  if(evt.target == $('home-button') || evt.target == $('systems-button') || evt.target == $('favorites-button') || evt.target == $('wishlist-button') || evt.target == $('about-button'))
+  {
+  	scroll(0,0);
+  }
 })
