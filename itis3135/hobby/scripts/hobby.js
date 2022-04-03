@@ -16,6 +16,7 @@ window.addEventListener('click', function(evt)
   
   if(evt.target == $('systems-button'))
   {
+    console.log("test")
   	$('systems-page-content').style.display = 'auto';
   } else if(evt.target == $('home-button') || evt.target == $('favorites-button') || evt.target == $('wishlist-button') || evt.target == $('about-button'))
   {
