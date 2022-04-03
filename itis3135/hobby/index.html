@@ -13,6 +13,11 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
     <script src="scripts/hobby.js"></script>
     <style>
+      main
+      {
+        margin-top: 30%;
+      }
+      
       body {
         background-color: #603A40;
         color: #b0db43;
@@ -22,6 +27,15 @@
         font-family: 'Press Start 2P', cursive;
         display: inline-block;
         margin-left: 1em;
+      }
+
+      .links-container
+      {
+        background-color: #603A40;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
       }
 
       nav {
@@ -132,26 +146,28 @@
 
   <body>
     <header>
-      <h1>The Gaming Lounge</h1>
-      <nav>
-        <ul>
-          <li>
-            <h2 id="home-button">Home</h2>
-          </li>
-          <li>
-            <h2 id="systems-button">Systems</h2>
-          </li>
-          <li>
-            <h2 id="favorites-button">Current Favorite Games</h2>
-          </li>
-          <li>
-            <h2 id="wishlist-button">Game Wishlist</h2>
-          </li>
-          <li>
-            <h2 id="about-button">About</h2>
-          </li>
-        </ul>
-      </nav>
+      <div class="links-container">
+        <h1>The Gaming Lounge</h1>
+        <nav>
+          <ul>
+            <li>
+              <h2 id="home-button">Home</h2>
+            </li>
+            <li>
+              <h2 id="systems-button">Systems</h2>
+            </li>
+            <li>
+              <h2 id="favorites-button">Current Favorite Games</h2>
+            </li>
+            <li>
+              <h2 id="wishlist-button">Game Wishlist</h2>
+            </li>
+            <li>
+              <h2 id="about-button">About</h2>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <div id="home-page-content">
