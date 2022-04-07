@@ -2,6 +2,7 @@ $(document).ready( () =>
     $("#panels").accordion(
         {
             heightStyle: "content",
-            collapsible: true
+            collapsible: true,
+            active: false
         })
 )
