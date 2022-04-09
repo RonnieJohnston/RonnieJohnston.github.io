@@ -2,7 +2,7 @@ body
 {
     /* background-color: #337CA0; */
     background-image: url("/itis3135/designproject/images/main-background.jpg");
-    background-repeat: no-repeat;
+    background-size: cover;
     color: #C9C9C9;
 }
 
