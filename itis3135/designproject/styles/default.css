@@ -78,6 +78,11 @@ a:hover
     color: black;
 }
 
+.accordion a
+{
+    float: none;
+}
+
 #faq-link
 {
     font-family: 'M PLUS 1', sans-serif;
