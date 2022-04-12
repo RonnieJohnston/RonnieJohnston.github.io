@@ -83,6 +83,11 @@ a:hover
     float: none;
 }
 
+.faq-link-container
+{
+    background-color: #2C6E39;
+}
+
 #faq-link
 {
     font-family: 'M PLUS 1', sans-serif;
