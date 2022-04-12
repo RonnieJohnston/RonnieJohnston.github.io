@@ -87,6 +87,7 @@ a:hover
 {
     font-family: 'M PLUS 1', sans-serif;
     text-align: center;
+    float: none;
 }
 
 .nav
