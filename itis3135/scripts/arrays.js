@@ -26,14 +26,19 @@ function addSalary()
     let name = $('employeename').value;
     let salary = parseFloat($('employeesalary').value).toFixed(2);
 
+    /* Check if name is already in array, if so, just update the salary */
+    for(let i=0; i < personArray.length; i++)
+    {
+        if(personArray[i] === name)
+        {
+            salaryArray[i] = salary;
+            return;
+        }
+    }
+
     /* Add to array */
     personArray.push(name);
     salaryArray.push(salary);
-
-    /* Debugging */
-    let testname = personArray.toString();
-    let testsalary = salaryArray.toString();
-    $('testline').innerHTML = "personArray: " + testname + "<br />" + "salaryArray: " + testsalary;
 }
 
 /* Display average salary and highest salary */
@@ -50,15 +55,22 @@ function displayResults()
 /* Calculate average salary of salary array */
 function calcAvg()
 {
+		if(salaryArray.length == 0)
+    {
+    	return 0;
+    } else if (salaryArray.length == 1)
+    {
+    	return salaryArray[0];
+    }
     /* Total up the sum of all salaries */
-    let sum = 0;
+    let sum = 0.00;
     for(let i = 0; i < salaryArray.length; i++)
     {
-        let temp = parseFloat(salaryArray[i]).toFixed(2);
-        sum += temp;
+    		sum += parseInt(salaryArray[i]);
+        console.log(sum);
     }
     /* Debugging */
-    $('testline2').innerHTML = salaryArray.length;
+    console.log(sum);
 
     /* Return average salary */
     return (sum / salaryArray.length).toFixed(2);
@@ -87,6 +99,7 @@ function calcHighest()
 /* Function that modifies html table by populating rows with array information */
 function displaySalary()
 {
+		$('employeetablebody').innerHTML = "";
     /* For each item in the person array... */
     for(let i = 0; i < personArray.length; i++)
     {
@@ -98,9 +111,5 @@ function displaySalary()
         cell0.innerHTML = personArray[i];
         cell1.innerHTML = salaryArray[i];
         /* Reset table so that multiple button presses don't stack */
-        if(i > 0)
-        {
-            $('employeetablebody').deleteRow(i - 1);
-        }
     }
 }
