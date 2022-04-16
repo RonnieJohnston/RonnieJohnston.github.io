@@ -2,12 +2,12 @@ $(document).ready(function() {
     $("#slider").bxSlider({
         randomStart: true,
         auto: true,
-        pagerType: 'short',
         captions: true,
         pagerSelector: '#id_pager',
-        pause: 3000,
+        pagerType: 'short',
         slideMargin: 20,
         slideWidth: 500,
+        pause: 3000,
         moveSlides: 1,
         minSlides: 1,
         maxSlides: 1
