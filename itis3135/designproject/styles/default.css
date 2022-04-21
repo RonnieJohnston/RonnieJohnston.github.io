@@ -57,6 +57,13 @@ p
     float: right;
 }
 
+.center-figure
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 figcaption
 {
     background-color: #2C6E39;
