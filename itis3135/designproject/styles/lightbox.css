@@ -95,7 +95,7 @@ body.lb-disable-scrolling {
 }
 
 .lb-prev, .lb-next {
-  height: 100%;
+  height: 50%;
   cursor: pointer;
   display: block;
 }
