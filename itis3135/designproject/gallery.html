@@ -9,8 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300&display=swap" rel="stylesheet">
+    <link href="styles/lightbox.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" type="text/css" href="styles/default.css">
+    <script src="scripts/lightbox.js"></script>
 </head>
 <body>
     <header>
@@ -24,26 +26,21 @@
     </header>
     <main>
         <h1>Model Gallery</h1>
-        <figure class="left-figure">
-            <img src="images/model1.jpg" style="width: 550px; height: 550px;"/>
-            <figcaption class="left-figcaption">Finished Flamers of Tzeentch Close Up</figcaption>
-        </figure>
-        <figure class="right-figure">
-            <img src="images/model2.jpg" style="width: 550px; height: 550px;"/>
-            <figcaption class="right-figcaption">Finished Burning Chariot</figcaption>
-        </figure>
-        <figure class="left-figure">
-            <img src="images/model3.jpg" style="width: 550px; height: 550px;"/>
-            <figcaption class="left-figcaption">Finished Flamers and Screamers Wide Shot</figcaption>
-        </figure>
-        <figure class="right-figure">
-            <img src="images/model4.jpg" style="width: 550px; height: 550px;"/>
-            <figcaption class="right-figcaption">Finished Pink Horrors and Herald of Tzeentch</figcaption>
-        </figure>
-        <figure class="left-figure">
-            <img src="images/model5.jpg" style="width: 550px; height: 550px;"/>
-            <figcaption class="right-figcaption">Partially painted Exalted Flamer of Tzeentch</figcaption>
-        </figure>
+        <a href="images/model1.jpg" data-lightbox="vecta" data-title="Finished Flamers of Tzeentch">
+            <img src="images/model1.jpg" alt="Finished Flamers of Tzeentch">
+        </a>
+        <a href="images/model2.jpg" data-lightbox="vecta" data-title="Finished Burning Chariot">
+            <img src="images/model2.jpg" alt="Finished Burning Chariot">
+        </a>
+        <a href="images/model3.jpg" data-lightbox="vecta" data-title="Finished Flamers and Screamers Wide Shot">
+            <img src="images/model3.jpg" alt="Finished Flamers and Screamers Wide Shot">
+        </a>
+        <a href="images/model4.jpg" data-lightbox="vecta" data-title="Finished Pink Horrors and Herald of Tzeentch">
+            <img src="images/model4.jpg" alt="Finished Pink Horrors and Herald of Tzeentch">
+        </a>
+        <a href="images/model5.jpg" data-lightbox="vecta" data-title="Partially painted Exalted Flamer of Tzeentch">
+            <img src="images/model5.jpg" alt="Partially painted Exalted Flamer of Tzeentch">
+        </a>
     </main>
 </body>
 </html>
