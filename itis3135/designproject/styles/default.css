@@ -9,6 +9,16 @@ main
     margin-top: 45px;
 }
 
+footer
+{
+    background-color: #2C6E39;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
 h1
 {
     text-align: center;
