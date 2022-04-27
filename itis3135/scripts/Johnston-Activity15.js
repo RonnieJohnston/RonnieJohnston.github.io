@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $.getJSON("facultyList.json",function(data) {
+    $.getJSON("../facultyList.json",function(data) {
         $.each(data, function() {
             $.each(this, function(value) {
                 $("#faculty").append(
