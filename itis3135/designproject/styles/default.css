@@ -74,6 +74,12 @@ p
     margin-right: auto;
 }
 
+.about-figure
+{
+    display: block;
+    text-align: center;
+}
+
 figcaption
 {
     background-color: #2C6E39;
