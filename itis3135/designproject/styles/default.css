@@ -10,6 +10,11 @@ main
     margin-bottom: 75px;
 }
 
+header
+{
+    z-index: 1000;
+}
+
 footer
 {
     background-color: #2C6E39;
