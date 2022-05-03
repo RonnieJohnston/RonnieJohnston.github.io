@@ -5,7 +5,7 @@ $(document).ready(function () {
         $.each(data, function() {
             $.each(this, function(key, value) {
                 // for each entry, append new section
-                $("#figures").append(
+                $("#main").append(
                     "<section class= '" + value.section + "'><figure class= '" + value.figure + 
                     "'><a href= '" + value.image + "' class= '" + value.figure + "' data-lightbox='vecta' data-title= '"
                      + value.data_title + "'><img src= '" + value.image + "' alt= '" + value.data_title + "'></a><figcaption>"

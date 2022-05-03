@@ -1,5 +1,5 @@
 $(document).ready( () =>
-    $(".main").tiltedpage_scroll({
+    $("#main").tiltedpage_scroll({
         sectionContainer: "> section",     
         angle: 50,                         
         opacity: true,                     
