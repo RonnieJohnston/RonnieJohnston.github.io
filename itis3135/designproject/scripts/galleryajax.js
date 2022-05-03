@@ -7,7 +7,7 @@ $(document).ready(function () {
                 // for each entry, append new section
                 $("#figures").append(
                     "<section class= '" + value.section + "'><figure class= '" + value.figure + 
-                    "'><a href= '" + value.image + "' class= '" + value.figure + " data-lightbox='vecta' data-title= '"
+                    "'><a href= '" + value.image + "' class= '" + value.figure + "' data-lightbox='vecta' data-title= '"
                      + value.data_title + "'><img src= '" + value.image + "' alt= '" + value.data_title + "'></a><figcaption>"
                       + value.data_title + "</figcaption></figure></section>"
                 );
