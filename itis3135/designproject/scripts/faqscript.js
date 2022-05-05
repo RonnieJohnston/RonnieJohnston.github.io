@@ -1,4 +1,5 @@
 $(document).ready( () =>
+// code for customizing accordion
     $("#panels").accordion(
         {
             heightStyle: "content",
