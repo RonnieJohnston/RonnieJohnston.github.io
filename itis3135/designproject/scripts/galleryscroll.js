@@ -2,9 +2,9 @@ $(document).ready( () =>
 // code to customize tilted scroll
     $("#main").tiltedpage_scroll({
         sectionContainer: "> section",     
-        angle: 25,                         
+        angle: 10,                         
         opacity: true,                     
-        scale: true,                       
+        scale: false,                       
         outAnimation: true  
     })
 )
