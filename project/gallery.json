@@ -1,0 +1,32 @@
+{"galleryinfo":[
+    {
+        "image": "images/model1.jpg",
+        "section": "page1",
+        "figure": "left-figure",
+        "data_title": "Finished Flamers of Tzeentch"
+    },
+    {
+        "image": "images/model2.jpg",
+        "section": "page2",
+        "figure": "right-figure",
+        "data_title": "Finished Burning Chariot"
+    },
+    {
+        "image": "images/model3.jpg",
+        "section": "page3",
+        "figure": "left-figure",
+        "data_title": "Finished Flamers and Screamers Wide Shot"
+    },
+    {
+        "image": "images/model4.jpg",
+        "section": "page4",
+        "figure": "right-figure",
+        "data_title": "Finished Pink Horrors and Herald of Tzeentch"
+    },
+    {
+        "image": "images/model5.jpg",
+        "section": "page5",
+        "figure": "left-figure",
+        "data_title": "Partially painted Exalted Flamer of Tzeentch"
+    }
+]}
