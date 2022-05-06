@@ -67,12 +67,14 @@ p
 
 .left-figure
 {
+    margin-left: 20%;
     float: left;
     clear: both;
 }
 
 .right-figure
 {
+    margin-right: 20%;
     float: right;
 }
 
