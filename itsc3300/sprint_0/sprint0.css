@@ -1,0 +1,116 @@
+body 
+{
+    background-color: #e7ce9b;
+    color: #2c3639;
+    /*font-family: 'Julee', cursive;*/
+    font-family: 'Gentium Book Plus', serif;
+    max-width: 1080px; 
+    margin: 0 auto; 
+    float: none; 
+    font-size: 17px;
+}
+header, footer, h2, h3, figure 
+{
+    text-align: center;
+}
+footer
+{
+    text-decoration: none;
+    font-size: 17px;
+}
+.low_font
+{
+    font-size: 19px;
+}
+p{
+    font-size: 23px;
+    
+}
+img {
+    border: 2px solid #555;
+    border-radius: 15%;
+  }
+a 
+{
+    color: #39781c/*#297e38*/;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.liner
+{
+    line-height: 0.55;
+}
+a:hover 
+{
+    color: #243f92/*#243f92*/;
+    text-decoration: overline underline;
+}
+a:active
+{
+    color: #297e38/*#243f92*/;
+    text-decoration: overline underline;
+}
+ol.order
+{ 
+    display: inline-block;
+    text-align: left;
+}
+ul.order
+{ 
+    display: inline-block;
+    text-align: left;
+}
+div.contain
+{
+    text-align: center;
+    background-color: rgb(199, 222, 239);
+}
+div.backer
+{
+    background-color: rgb(199, 222, 239);
+    /*margin: ; */
+    width: 700px;
+    margin: auto;
+}
+div.stacker
+{
+    width: 750px;
+    margin: auto;
+}
+#img-link {
+    text-decoration: none;
+    border: none;
+}
+.cap
+{
+    font-size: 15px;
+}
+.menu
+{
+border-bottom-style: solid;
+padding-bottom: 2%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+::placeholder {
+color: #FFFDD0;
+}
+.der {
+color: #2d545e;
+}
+.inline {
+width: unset;
+margin: 0 0.5em 0 0;
+vertical-align: middle;
+}
+.der {
+color: #2d545e;
+}
+
+}
+.cent
+{
+    text-align: center;
+}
