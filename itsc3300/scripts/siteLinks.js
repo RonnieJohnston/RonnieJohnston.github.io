@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
       <nav>
         <a href="sprint_0/index.html">Sprint0 Blogs</a> |
         <a href="sprint_1/index.html">Sprint1 Blogs</a> |
-        <a href="sprint_1_week2/index.html">Sprint1 Week 2 Blogs</a> 
+        <a href="sprint_1_week2/index.html">Sprint1 Week 2 Blogs</a> |
+        <a href="sprint_2_week1/index.html">Sprint2 Week 1 Blogs</a> 
       </nav>
     `;
     document.body.insertBefore(header, document.body.firstChild);
