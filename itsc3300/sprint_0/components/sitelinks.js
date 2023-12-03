@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const header = document.createElement("header");
     header.innerHTML = `
-    <h1 class = "cent">Sprint0 blogs</h1>
+    <h1 class = "cent">Agile Management blogs</h1>
     <nav>
         <a href="../index.html">Home</a> |
         <a href="index.html">Stories</a> |
