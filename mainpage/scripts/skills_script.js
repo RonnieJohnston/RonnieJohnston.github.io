@@ -4,7 +4,7 @@
 
     for(entry in skills) {
         console.log(skills[entry]);
-        if(entry[1] !== null) {
+        if(skills[entry][1] !== null) {
             $("#skills_list").append("<p class='skill-item'>" + skills[entry][0] + "<img class='skill-image' src='" + skills[entry][1] +"></p>");
         } else {
             $("#skills_list").append("<p class='skill-item'>" + skills[entry][0] + "</p>");
