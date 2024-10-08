@@ -13,8 +13,12 @@
 <body>
     <div data-include="components/header.html"></div>
     <main>
-        <div class="div-1">
+        <div class="slideshow">
             <div id="skills_list"></div>
+            <div class="slideshow-controls" style="width: 100%;">
+                <div class="left-button" onclick="shiftContent(-1)">&#10094;</div>
+                <div class="right-button" onclick="shiftContent(1)">&#10095;</div>
+            </div>
         </div>
     </main>
     <div data-include="components/footer.html"></div>

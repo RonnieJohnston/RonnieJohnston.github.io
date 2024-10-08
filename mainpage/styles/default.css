@@ -11,17 +11,26 @@ body {
 }
 
 #skills_list {
-    display: grid;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
 .skill-item {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    width: 100%;
+    display: block;
 }
 
-.skill-image {
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
+.left-button, .right-button {
+    box-sizing: inherit;
+    font-size: 18px !important;
+}
+
+.left-button {
+    float: left !important;
+}
+
+.right-button {
+    float: right !important;
 }
