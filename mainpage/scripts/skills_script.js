@@ -7,7 +7,6 @@ $(document).ready(function() {
         if(skills[entry][1] !== null) {
             $("#skills_list").append("<p class='skill-item'>" + skills[entry][0] + "<img class='skill-image' src='" + skills[entry][1] +"'></p>");
         } else {
-            console.log(skills[entry][1]);
             $("#skills_list").append("<p class='skill-item'>" + skills[entry][0] + "</p>");
         }
     }
