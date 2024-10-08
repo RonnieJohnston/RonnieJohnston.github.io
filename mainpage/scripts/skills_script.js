@@ -12,6 +12,15 @@ $(document).ready(function() {
     }
 
     var slideIndex = 1;
+
+    $("#left-button").on("click", function() {
+        showContent(-1);
+    });
+
+    $("#right-button").on("click", function() {
+        showContent(1);
+    });
+    
     showContent(slideIndex);
 
     function showContent(n) {
