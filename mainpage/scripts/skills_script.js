@@ -20,10 +20,11 @@ $(document).ready(function() {
     $("#right-button").on("click", function() {
         showContent(1);
     });
-    
+
     showContent(slideIndex);
 
     function showContent(n) {
+        console.log("Showing slide " + slideIndex);
         let slides = $("#skills_list");
         if(n > slides.length) slideIndex = 1;
         if(n < 1) slideIndex = slides.length;
