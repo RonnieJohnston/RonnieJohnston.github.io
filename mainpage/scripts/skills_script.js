@@ -3,6 +3,7 @@ $(document).ready(function() {
  ["Trello", null], ["REST API", "rest.png"], ["ReactJS", "react.png"], ["Agile Development", null], ["MySQL", null]];
 
     for(entry in skills) {
+        console.log("TEST");
         setTimeout(function() {
             if(entry[1] !== null) {
                 $("skills_list").innerHTML += "<p class='skill-item'>" + entry[0] + "<img class='skill-image' src='" + entry[1] +"></p>" 
