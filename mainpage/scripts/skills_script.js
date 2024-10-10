@@ -11,8 +11,6 @@ $(document).ready(function() {
         }
     }
 
-    var slideIndex = 1;
-
     $("#left-button").on("click", function() {
         shiftContent(-1);
     });
@@ -21,13 +19,16 @@ $(document).ready(function() {
         shiftContent(1);
     });
 
+    //let slides = ["A", "B", "C", "D", "E"];
+    var slideIndex = 1;
     showContent(slideIndex);
 
     function showContent(n) {
         let slides = $("#skills_list");
+        console.log(slides);
         if(n > slides.length) slideIndex = 1;
         if(n < 1) slideIndex = slides.length;
-        console.log("Showing slide " + slideIndex);
+        //console.log("Showing slide " + slideIndex);
         for(let i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
@@ -38,3 +39,13 @@ $(document).ready(function() {
         showContent(slideIndex += n);
     }
 })
+/*
+shiftContent(-1);
+shiftContent(-1);
+shiftContent(-1);
+shiftContent(1);
+shiftContent(1);
+shiftContent(1);
+shiftContent(1);
+shiftContent(1);
+shiftContent(1);*/
