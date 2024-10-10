@@ -42,10 +42,13 @@ a:hover {
     display: block;
     float: left;
     font-size: 8em;
+    position: relative;
+    top: 0.1em;
 }
 
 .skill-item img {
-    max-width: 500px;
+    max-width: 1em;
+    max-height: 1em;
     float: right;
 }
 
