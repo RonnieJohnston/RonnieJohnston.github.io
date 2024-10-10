@@ -53,26 +53,16 @@ a:hover {
     font-size: 18px !important;
 }
 
-#left-button {
-    float: left !important;
-}
-
-#right-button,
-#right-button *,
-#right-button :after,
-#right-button :before,
-#right-button:after,
-#right-button:before,
-#left-button,
-#left-button *,
-#left-button :after,
-#left-button :before,
-#left-button:after,
-#left-button:before {
+#left-button, #right-button,
+#left-button, #right-button *,
+#left-button, #right-button :after,
+#left-button, #right-button :before,
+#left-button, #right-button:after,
+#left-button, #right-button:before {
   border: 0 solid;
   box-sizing: border-box;
 }
-#right-button, #left-button {
+#left-button, #right-button {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
   background-color: #000;
@@ -88,21 +78,20 @@ a:hover {
   -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
   padding: 0;
 }
-
-#right-button:disabled {
+#left-button:disabled, #right-button:disabled {
   cursor: default;
 }
-#right-button:-moz-focusring {
+#left-button:-moz-focusring, #right-button:-moz-focusring {
   outline: auto;
 }
-#right-button svg {
+#left-button svg, #right-button svg {
   display: block;
   vertical-align: middle;
 }
-#right-button [hidden] {
+#left-button [hidden], #right-button [hidden] {
   display: none;
 }
-#right-button {
+#left-button, #right-button {
   background: #fff;
   box-sizing: border-box;
   color: #000;
@@ -112,58 +101,31 @@ a:hover {
   padding: 1.2rem 3rem;
   perspective: 800px;
   position: relative;
-  float: right !important;
-  margin-right: 33%;
   text-transform: uppercase;
-  transform: rotateY(12deg);
+  transform: rotateX(8deg);
   transform-style: preserve-3d;
   transition: transform 0.2s;
 }
-#right-button:before {
+#left-button:before , #right-button:before {
   background: #eee;
   content: "";
   display: block;
-  height: 100%;
+  height: 20%;
   left: 0;
   position: absolute;
-  top: 0;
-  transform: rotateY(90deg);
+  top: 100%;
+  transform: rotateX(-90deg);
   transform-origin: 0 0;
-  width: 20%;
+  width: 100%;
 }
-#right-button:hover {
-  transform: rotateY(20deg);
+#left-button:hover , #right-button:hover {
+  transform: rotateX(25deg);
 }
 
 #left-button {
-    background: #fff;
-    box-sizing: border-box;
-    color: #000;
-    display: block;
-    font-weight: 900;
-    -webkit-mask-image: none;
-    padding: 1.2rem 3rem;
-    perspective: 800px;
-    position: relative;
-    float: left !important;
     margin-left: 33%;
-    text-transform: uppercase;
-    transform: rotateY(-12deg);
-    transform-style: preserve-3d;
-    transition: transform 0.2s;
-  }
-#left-button:before {
-    background: #eee;
-    content: "";
-    display: block;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    transform: rotateY(-90deg);
-    transform-origin: 0 0;
-    width: 20%;
-  }
-#left-button:hover {
-    transform: rotateY(-20deg);
-  }
+}
+
+#right-button {
+    margin-right: 33%;
+}
