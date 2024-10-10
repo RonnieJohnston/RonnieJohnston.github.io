@@ -24,10 +24,10 @@ $(document).ready(function() {
     showContent(slideIndex);
 
     function showContent(n) {
-        console.log("Showing slide " + slideIndex);
         let slides = $("#skills_list");
         if(n > slides.length) slideIndex = 1;
         if(n < 1) slideIndex = slides.length;
+        console.log("Showing slide " + slideIndex);
         for(let i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
