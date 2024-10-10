@@ -10,6 +10,12 @@ body {
     color: #2E282A;
 }
 
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
 a {
     text-decoration: none;
     color: lightseagreen;
@@ -25,6 +31,12 @@ a:hover {
     margin-right: auto;
     position: relative;
     padding-bottom: 10px;
+}
+
+.slideshow-controls {
+    width: 100%;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 .skill-item {
@@ -45,6 +57,111 @@ a:hover {
     float: left !important;
 }
 
-#right-button {
-    float: right !important;
+#right-button,
+#right-button *,
+#right-button :after,
+#right-button :before,
+#right-button:after,
+#right-button:before,
+#left-button,
+#left-button *,
+#left-button :after,
+#left-button :before,
+#left-button:after,
+#left-button:before {
+  border: 0 solid;
+  box-sizing: border-box;
 }
+#right-button, #left-button {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+
+#right-button:disabled {
+  cursor: default;
+}
+#right-button:-moz-focusring {
+  outline: auto;
+}
+#right-button svg {
+  display: block;
+  vertical-align: middle;
+}
+#right-button [hidden] {
+  display: none;
+}
+#right-button {
+  background: #fff;
+  box-sizing: border-box;
+  color: #000;
+  display: block;
+  font-weight: 900;
+  -webkit-mask-image: none;
+  padding: 1.2rem 3rem;
+  perspective: 800px;
+  position: relative;
+  float: right !important;
+  text-transform: uppercase;
+  transform: rotateY(12deg);
+  transform-style: preserve-3d;
+  transition: transform 0.2s;
+}
+#right-button:before {
+  background: #eee;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotateY(90deg);
+  transform-origin: 0 0;
+  width: 20%;
+}
+#right-button:hover {
+  transform: rotateY(20deg);
+}
+
+#left-button {
+    background: #fff;
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    font-weight: 900;
+    -webkit-mask-image: none;
+    padding: 1.2rem 3rem;
+    perspective: 800px;
+    position: relative;
+    float: left !important;
+    text-transform: uppercase;
+    transform: rotateY(-12deg);
+    transform-style: preserve-3d;
+    transition: transform 0.2s;
+  }
+#left-button:before {
+    background: #eee;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotateY(-90deg);
+    transform-origin: 0 0;
+    width: 20%;
+  }
+#left-button:hover {
+    transform: rotateY(-20deg);
+  }
