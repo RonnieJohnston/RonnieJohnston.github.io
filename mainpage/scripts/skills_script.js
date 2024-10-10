@@ -24,11 +24,11 @@ $(document).ready(function() {
     showContent(slideIndex);
 
     function showContent(n) {
-        let slides = $("#skills_list");
+        let slides = $("#skills_list")[0].children;
         console.log(slides);
         if(n > slides.length) slideIndex = 1;
         if(n < 1) slideIndex = slides.length;
-        //console.log("Showing slide " + slideIndex);
+        console.log("Showing slide " + slideIndex);
         for(let i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
