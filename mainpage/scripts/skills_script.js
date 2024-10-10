@@ -14,11 +14,11 @@ $(document).ready(function() {
     var slideIndex = 1;
 
     $("#left-button").on("click", function() {
-        showContent(-1);
+        shiftContent(-1);
     });
 
     $("#right-button").on("click", function() {
-        showContent(1);
+        shiftContent(1);
     });
 
     showContent(slideIndex);
