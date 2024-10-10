@@ -40,10 +40,13 @@ a:hover {
 .skill-item {
     width: 100%;
     display: block;
+    float: left;
+    font-size: 8em;
 }
 
 .skill-item img {
     max-width: 500px;
+    float: right;
 }
 
 #left-button, #right-button {
@@ -122,8 +125,10 @@ a:hover {
 
 #left-button {
     margin-left: 33%;
+    float: left;
 }
 
 #right-button {
     margin-right: 33%;
+    float: right;
 }
