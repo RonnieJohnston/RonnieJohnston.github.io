@@ -150,6 +150,7 @@ a:hover {
   display: block;
   float: left;
   position: relative;
+  font-size: 10%;
 }
 
 .showcase-icon {
