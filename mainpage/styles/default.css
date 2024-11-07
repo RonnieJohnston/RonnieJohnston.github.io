@@ -145,3 +145,18 @@ a:hover {
     margin-right: 33%;
     float: right;
 }
+
+.showcase-link {
+  display: block;
+  float: left;
+  position: relative;
+}
+
+.showcase-icon {
+  display: block;
+  float: right;
+  max-width: 1em;
+  max-height: 1em;
+  min-width: 0.5em;
+  min-height: 0.5em;
+}
