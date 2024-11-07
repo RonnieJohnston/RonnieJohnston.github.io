@@ -10,6 +10,10 @@ body {
     color: #2E282A;
 }
 
+header nav {
+  font-size: 1.5em;
+}
+
 footer {
     position: fixed;
     bottom: 0px;
