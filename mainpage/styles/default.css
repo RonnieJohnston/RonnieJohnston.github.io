@@ -146,11 +146,16 @@ a:hover {
     float: right;
 }
 
+.links-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
 .showcase-link {
   display: block;
   float: left;
   position: relative;
-  font-size: 10%;
 }
 
 .showcase-icon {
