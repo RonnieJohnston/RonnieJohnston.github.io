@@ -15,8 +15,6 @@ header nav {
 }
 
 footer {
-    position: fixed;
-    bottom: 0px;
     width: 100%;
 }
 
@@ -159,6 +157,7 @@ a:hover {
   position: relative;
   font-size: 2.5em;
   border: 2px solid black;
+  width: 50%;
 }
 
 .showcase-icon {
