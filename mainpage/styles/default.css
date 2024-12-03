@@ -148,8 +148,9 @@ a:hover {
 
 .links-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 10px;
+  padding-top: 5em;
 }
 
 .showcase-link {
@@ -161,7 +162,7 @@ a:hover {
 
 .showcase-icon {
   display: block;
-  float: right;
+  float: left;
   max-width: 2.5em;
   max-height: 2.5em;
   min-width: 2.5em;
